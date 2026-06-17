@@ -1,0 +1,35 @@
+/* ---- Título Principal ---- */
+/* Define o estilo para o título principal da página (.title) */
+.title {
+  font-family: "Roboto", sans-serif; /* Define a fonte Roboto; usa sans-serif se não carregar */
+  font-optical-sizing: auto; /* Ajusta automaticamente o desenho da fonte ao tamanho do texto */
+  font-weight: 700; /* Define a espessura da fonte como negrito (Bold) */
+  font-style: normal; /* Garante que o texto fique em estilo normal (sem itálico) */
+  font-variation-settings:"wdth" 100; /* Ajusta a largura (width) de fontes variáveis para o padrão */
+  text-align: center; /* Alinha o texto no centro horizontal da tela */
+  font-size: clamp(2rem, 5vw, 4rem); /* Torna o tamanho responsivo: mínimo 2rem, ideal 5vw, máximo 4rem */
+  letter-spacing: 2px; /* Adiciona um espaço de 2 pixels entre as letras */
+  text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+}
+
+/* ---- Subtítulo ---- */
+/* Define o estilo para os subtítulos da página (.subtitle) */
+.subtitle {
+  font-family: "Roboto", sans-serif; 
+  font-optical-sizing: auto; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-variation-settings:"wdth" 100; 
+}
+
+/* ---- Parágrafos ---- */
+/* Define o estilo para os blocos de texto e parágrafos (.paragrafo) */
+.paragrafo {
+  font-family: "Merriweather", serif; /* Usa uma fonte serifada (com serifa), ótima para leitura longa */
+  font-optical-sizing: auto; 
+  font-weight: 400;
+  font-style: normal; 
+  font-variation-settings:"wdth" 100; 
+  max-width: 75ch; /* Limita a largura do texto a 75 caracteres para facilitar a leitura */
+  line-height: 1.6; /* Define o espaçamento entre as linhas em 160% do tamanho da fonte */
+}
